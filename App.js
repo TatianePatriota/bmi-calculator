@@ -1,10 +1,11 @@
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, StatusBar } from "react-native";
 import Title from "./src/components/Title/Title";
 import FormMain from "./src/components/FormMain/FormMain";
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <StatusBar animated={true} backgroundColor="#bdbdbd" />
       <Title />
       <FormMain />
     </View>
