@@ -1,1 +1,1 @@
-Projeto feito em React Native para calcular o IMC. Objetivo inicial aplicar os componentes e eslilizações do Native.
+Projeto feito em React Native para calcular o IMC. Objetivo inicial aplicar os componentes e eslilizações do Native. Utilizando Vibration quando os campos não estiverem preenchidos e o Share para compartilhar o resultado do IMC calculado
