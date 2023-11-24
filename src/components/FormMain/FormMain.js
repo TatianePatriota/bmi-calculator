@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Text, TextInput, View, Button } from "react-native";
-import ResultImc from "./ResultImc";
+import { Text, TextInput, View } from "react-native";
+import ResultImc from "../ResultImc/ResultImc";
+import { TouchableOpacity } from "react-native";
 
 export default function FormMain() {
   const [height, setHeight] = useState(null);
@@ -23,7 +24,7 @@ export default function FormMain() {
       return;
     }
     setImc(null);
-    textButton("Calcular");
+    setTextButton("Calcular");
     setMessageImc("Preencha o peso e altura");
   }
 
@@ -44,9 +45,11 @@ export default function FormMain() {
           onChangeText={setWeight}
           value={weight}
         />
-        <Button title={textButton} onPress={() => validationImc()} />
+        <TouchableOpacity>
+          <Text onPress={() => validationImc()}>{textButton}</Text>
+        </TouchableOpacity>
       </View>
-      <ResultImc messageResultImc={messageImc} resultImc={imc} />
+      <ResultImc messageResultImc={messageImc} imcResult={imc} />
     </View>
   );
 }
