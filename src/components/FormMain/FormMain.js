@@ -37,7 +37,7 @@ export default function FormMain() {
         <TextInput
           style={styles.input}
           placeholder="Insira a sua altura, ex: 1.60 "
-          keyboardType="numbers-and-punctuation"
+          keyboardType="numeric"
           onChangeText={setHeight}
           value={height}
         />
