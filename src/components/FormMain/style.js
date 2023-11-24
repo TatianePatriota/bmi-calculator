@@ -27,7 +27,8 @@ export const styles = StyleSheet.create({
     width: "90%",
     backgroundColor: "#f6f6f6",
     height: 40,
-    margin: 12,
+    marginLeft: 12,
+    marginBottom: 12,
     paddingLeft: 10,
     borderRadius: 10,
   },
@@ -45,5 +46,12 @@ export const styles = StyleSheet.create({
   textButtonCalculator: {
     fontSize: 20,
     color: "#ffffff",
+  },
+  errorMessage: {
+    fontSize: 12,
+    color: "#ff0043",
+    fontWeight: "bold",
+    paddingLeft: 20,
+    marginBottom: 2,
   },
 });
