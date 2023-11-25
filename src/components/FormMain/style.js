@@ -26,10 +26,10 @@ export const styles = StyleSheet.create({
     marginLeft: 12,
     marginBottom: 12,
     paddingLeft: 10,
-    borderRadius: 10,
+    borderRadius: 30,
   },
   buttonCalculator: {
-    borderRadius: 10,
+    borderRadius: 30,
     alignItems: "center",
     justifyContent: "center",
     width: "90%",
@@ -49,5 +49,9 @@ export const styles = StyleSheet.create({
     fontWeight: "bold",
     paddingLeft: 20,
     marginBottom: 2,
+  },
+  showImcResult: {
+    width: "100%",
+    height: "50%",
   },
 });
