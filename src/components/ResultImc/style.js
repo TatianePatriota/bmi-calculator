@@ -26,8 +26,10 @@ export const styles = StyleSheet.create({
   shared: {
     backgroundColor: "#1877f2",
     borderRadius: 20,
-    paddingBottom: 5,
-    paddingTop: 5,
+    paddingBottom: 10,
+    paddingTop: 10,
+    marginTop: 30,
+    paddingHorizontal: 20,
   },
   sharedText: {
     color: "#ffffff",
