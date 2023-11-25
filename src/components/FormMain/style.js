@@ -48,7 +48,7 @@ export const styles = StyleSheet.create({
     color: "#ff0043",
     fontWeight: "bold",
     paddingLeft: 20,
-    marginBottom: 2,
+    marginBottom: 5,
   },
   showImcResult: {
     width: "100%",
