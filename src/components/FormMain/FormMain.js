@@ -41,13 +41,12 @@ export default function FormMain() {
       setMessageImc("Seu IMC é igual a:");
       setTextButton("Calcular novamente");
       setErrorMessage(null);
-
-      return;
+    } else {
+      verficationImc();
+      setImc(null);
+      setTextButton("Calcular");
+      setMessageImc("Preencha o peso e altura");
     }
-    verficationImc();
-    setImc(null);
-    setTextButton("Calcular");
-    setMessageImc("Preencha o peso e altura");
   }
 
   return (
