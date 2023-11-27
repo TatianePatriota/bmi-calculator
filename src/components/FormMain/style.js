@@ -54,4 +54,18 @@ export const styles = StyleSheet.create({
     width: "100%",
     height: "50%",
   },
+  listImcs: {
+    marginTop: 20,
+  },
+  resultImcItem: {
+    fontSize: 18,
+    color: "#FF0043",
+    height: 50,
+    width: "100%",
+    fontWeight: "bold",
+  },
+  textResultItemList: {
+    color: "#FF0043",
+    fontSize: 14,
+  },
 });
