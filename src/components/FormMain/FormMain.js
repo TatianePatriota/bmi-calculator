@@ -98,6 +98,7 @@ export default function FormMain() {
         </View>
       )}
       <FlatList
+        showsVerticalScrollIndicator={false}
         style={styles.listImcs}
         data={imcList}
         key={(item) => {
